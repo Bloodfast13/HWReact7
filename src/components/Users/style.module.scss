@@ -1,0 +1,28 @@
+.Header {
+    width: 100vw;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    > ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        > li {
+        padding: 0 20px;
+        > a {
+            text-decoration: none;
+            color: black;
+            transition: text-decoration ease;
+        }
+        > a:hover {
+            text-decoration: underline;
+        }
+        }
+    }
+}
